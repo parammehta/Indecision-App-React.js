@@ -1,8 +1,8 @@
 .header {
   background: $off-black;
-  color: white;
-  margin-bottom: $m-size;
+  margin-bottom: $xl-size;
   padding: $m-size 0;
+  color: white;
 }
 
 .header__title {
@@ -13,12 +13,11 @@
 .header__subtitle {
   color: $off-white;
   font-size: $m-size;
-  font-weight: 500;
-  margin: 0;
+  margin-top: $s-size;;
 }
 
-@media (min-width: $desktop-breakpoint) {
+@media (max-width: $desktop-break) {
   .header {
-    margin-bottom: $xl-size;
+    margin-bottom: $l-size;
   }
 }

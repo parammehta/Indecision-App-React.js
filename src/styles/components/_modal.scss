@@ -1,4 +1,4 @@
-.ReactModalPortal>div {
+.ReactModalPortal > div {
   opacity: 0;
 }
 
@@ -20,7 +20,7 @@
 .modal {
   background: $light-blue;
   color: white;
-  max-width: 30rem;
+  width: 50rem;
   outline: none;
   padding: $l-size;
   text-align: center;
@@ -32,7 +32,6 @@
 
 .modal__body {
   font-size: 2rem;
-  font-weight: 300;
   margin: 0 0 $l-size 0;
   word-break: break-all;
 }
