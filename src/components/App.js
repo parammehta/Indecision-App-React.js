@@ -75,7 +75,7 @@ class App extends Component {
   };
 
   render() {
-    const subtitle = 'Put your decisions in the hands of this app :3';
+    const subtitle = 'Put your decisions in the hands of this app';
 
     return (
       <div className="main">
@@ -97,9 +97,9 @@ class App extends Component {
           </div>
         </div>
         <OptionModal
-          selectedOption={this.state.selectedOption}
-          handleClearSelected={this.handleClearSelected}
-        ></OptionModal>
+    selectedOption={this.state.selectedOption}
+    handleClearSelected={this.handleClearSelected}
+    />
       </div>
     );
   }
